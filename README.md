@@ -30,15 +30,6 @@ A copy of the dataset access link and instructions is included in the attached Z
 
 ---
 
-## 🧠 Workflow
-1. **Input PET Image**
-2. **CycleGAN Generator → Synthetic CT**
-3. **Diffusion Refinement Module → Enhanced CT**
-4. **Discriminator Validation**
-5. **Cycle Consistency Loss (PET ↔ CT)**
-
-*(Refer to `architecture_diagram.png` for model overview.)*
-
 ---
 
 ## 📊 Evaluation
@@ -50,12 +41,5 @@ A copy of the dataset access link and instructions is included in the attached Z
 
 ---
 
-## 📁 Folder Overview
-├── data/
-├── models/
-├── training/
-├── results/
-├── README.md
-└── Dataset_Link.txt
 
 
