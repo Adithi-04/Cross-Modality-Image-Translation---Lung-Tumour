@@ -30,8 +30,6 @@ A copy of the dataset access link and instructions is included in the attached Z
 
 ---
 
----
-
 ## 📊 Evaluation
 **Metrics Used:**
 - MAE / MSE – Pixel accuracy  
