@@ -3,6 +3,8 @@
 This project implements a **Hybrid CycleGAN + Diffusion Model** for **cross-modality image translation** between **Positron Emission Tomography (PET)** and **Computed Tomography (CT)** scans of the lung.  
 It generates synthetic CT images from PET scans to improve visualization and support diagnostic analysis.
 
+The proposed approach employs a Hybrid CycleGAN and Diffusion framework to enable bidirectional translation between PET and CT imaging domains. The CycleGAN component learns mapping functions between unpaired PET and CT datasets using adversarial, cycle-consistency, and identity losses to ensure structural and intensity fidelity. This enables the model to generate anatomically consistent CT images from PET scans and vice versa. To further enhance the realism and texture quality of the synthesized outputs, a Diffusion Refinement Module is incorporated post-translation. The diffusion process iteratively denoises the generated images, improving fine-grained details and reducing artifacts. Together, this hybrid setup ensures high-quality, modality-consistent image synthesis while maintaining anatomical integrity essential for medical analysis.
+
 ---
 
 ## 📂 Dataset
